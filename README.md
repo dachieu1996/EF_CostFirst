@@ -59,7 +59,7 @@ public class Course
         }
     }
 ```
-> Note: Must have class adopt DbContext to Initial migration (In this case: PlutoContext)
+> Note: Must have class inherit DbContext to Initial migration (In this case: PlutoContext)
 
 ## Run migration and update database
 <pre>
