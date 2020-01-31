@@ -2,7 +2,7 @@
 
 ## Install EntityFramework: 
 <pre>
-Install-Package EntityFramwork
+Install-Package EntityFramework
 </pre>
 
 ## Add connection string on App.config
