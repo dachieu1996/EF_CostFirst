@@ -6,12 +6,14 @@ Install-Package EntityFramework
 </pre>
 
 ## Add connection string on App.config
-`<connectionStrings>
+```xml
+<connectionStrings>
     <add name="DefaultConnection" connectionString="Data Source=DacHieu; initial catalog=PlutoCodeFirst; User Id=sa; Password=" providerName="System.Data.SqlClient"/>
 </connectionStrings>`
+```
 
 ## Sample Model
-<pre>
+```csharp
 public class Course
     {
         public int Id { get; set; }
@@ -56,7 +58,7 @@ public class Course
             
         }
     }
-</pre>
+```csharp
 > Note: Must have class adopt DbContext to Initial migration (In this case: PlutoContext)
 
 ## Run migration and update database
