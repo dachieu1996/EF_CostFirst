@@ -6,7 +6,9 @@ Install-Package EntityFramwork
 </pre>
 
 ## Add connection string on App.config
-`<connectionStrings>    <add name="DefaultConnection" connectionString="Data Source=DacHieu; initial catalog=PlutoCodeFirst; User Id=sa; Password=" providerName="System.Data.SqlClient"/>  </connectionStrings>`
+`<connectionStrings>
+    <add name="DefaultConnection" connectionString="Data Source=DacHieu; initial catalog=PlutoCodeFirst; User Id=sa; Password=" providerName="System.Data.SqlClient"/>
+</connectionStrings>`
 
 ## Sample Model
 <pre>
