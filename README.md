@@ -71,3 +71,8 @@ add-migration InitialModel
 <pre>
 update-database
 </pre>
+
+## Revert to previous migration
+<pre>
+update-database -TargetMigration:AddCategoryColumnToCoursesTable
+</pre>
